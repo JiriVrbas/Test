@@ -24,9 +24,9 @@ namespace WcfService1
             });
         }
 
-        public void ANother()
+        public string GetInfo(Student student)
         {
-            throw new NotImplementedException();
+            return student.Name + " (" + student.Age + ")";
         }
 
         public void AddStudent(Student student)
