@@ -73,5 +73,11 @@ namespace WcfService1.Tests
         {
             Assert.IsNotNull(ser.GetAllStudents());
         }
+        [TestMethod()]
+        public void TestNothing()
+        {
+            ser.Nothing();
+            Assert.Fail();
+        }
     }
 }

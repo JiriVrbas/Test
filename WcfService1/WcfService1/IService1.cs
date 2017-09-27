@@ -12,6 +12,8 @@ namespace WcfService1
     [ServiceContract]
     public interface IService1
     {
+        [OperationContract]
+        void Nothing();
 
         [OperationContract]
         void AddStudent(Student student);
