@@ -14,13 +14,23 @@ namespace WcfService1
     {
         private static List<Student> students = new List<Student>();
 
-        public void Nothing()
+        public void AddChrist()
         {
             students.Add(new Student()
             {
                 Id = 888,
                 Name = "Christ",
                 Age = 33
+            });
+        }
+
+        public void AddDevil()
+        {
+            students.Add(new Student()
+            {
+                Id = 666,
+                Name = "Hell",
+                Age = 1555
             });
         }
 

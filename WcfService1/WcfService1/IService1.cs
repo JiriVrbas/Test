@@ -13,7 +13,10 @@ namespace WcfService1
     public interface IService1
     {
         [OperationContract]
-        void Nothing();
+        void AddChrist();
+
+        [OperationContract]
+        void AddDevil();
 
         [OperationContract]
         string GetInfo(Student student);
