@@ -24,6 +24,11 @@ namespace WcfService1
             });
         }
 
+        public void ANother()
+        {
+            throw new NotImplementedException();
+        }
+
         public void AddStudent(Student student)
         {
             students.Add(student);

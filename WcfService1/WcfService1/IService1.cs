@@ -16,6 +16,9 @@ namespace WcfService1
         void Nothing();
 
         [OperationContract]
+        void ANother();
+
+        [OperationContract]
         void AddStudent(Student student);
         [OperationContract]
         Student FindStudent(int id);
