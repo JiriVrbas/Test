@@ -33,6 +33,15 @@ namespace WcfService1
                 Age = 1555
             });
         }
+        public void AddGeorge()
+        {
+            students.Add(new Student()
+            {
+                Id = 100,
+                Name = "George",
+                Age = 11
+            });
+        }
 
         public string GetInfo(Student student)
         {

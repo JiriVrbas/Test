@@ -19,6 +19,9 @@ namespace WcfService1
         void AddDevil();
 
         [OperationContract]
+        void AddGeorge();
+
+        [OperationContract]
         string GetInfo(Student student);
 
         [OperationContract]
